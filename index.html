@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.css">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+    <h1>The Shotgun Game!</h1>
+    
+    <div id="player">
+        <h1 id ="bulletStatusUser">Bullets: <span class="js-playerBullets">0</span></h1>
+        <img id="userPic" class="js-playerImage" src="images/userStill.jpg" alt="Picture" width="400px" height="400px">
+        <div id="playerchoices" class="js-actions">
+            <button id="shootBtn" class="js-shoot" data-choice="1" type="button" disabled>Shoot</button>
+            <button id="blockBtn" class="js-block" data-choice="2" type="button">Block</button>
+            <button id="reloadBtn" class="js-reload" data-choice="3" type="button">Reload</button>
+        </div>
+    </div>
+    <div id="computer">
+        <h1 id="bulletStatusComputer">Bullets: <span class="js-computerBullets">0</span></h1>
+        <img id="computerPic" class="js-computerImage" src="images/computerStill.jpg" alt="ComputerPicture" width="400px" height="400px">
+    </div>
+    <footer id="result">
+        <p id="hresult" class="js-resultText">Resultat: </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js"></script>
+   <!--<script src="ShotgunGame.js" defer></script>-->
+   <script src="new/text.js"></script>
+   <script src="new/gameActions.js"></script>
+    <script src="new/player.js"></script>
+    <script src="new/index.js"></script>
+</body>
+</html>

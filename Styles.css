@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+
+body {
+    background-image: url("images/background.jpg");
+}
+#computer {
+float: right;
+width: 500px;
+height: 500px
+}
+
+
+#player {
+    float: left;
+    width: 500px;
+    height: 500px;
+}
+
+#userPic {
+    background-color: red;
+    background-blend-mode: multiply;
+}
+#bulletStatusUser {
+    text-align: left;
+    padding-left: 100px;
+}
+#shootBtn:disabled {
+    cursor: not-allowed;
+}
+#shootBtn {
+    cursor: pointer;
+}
+
